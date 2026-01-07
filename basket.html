@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>My jewellery site</title>
+      <script src="https://kit.fontawesome.com/3d952e95e0.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="styles.css">
+      <script src="https://kit.fontawesome.com/3d952e95e0.js" crossorigin="anonymous"></script>
+   </head>
+   <body>
+      <section id="header">
+         <div>
+            <ul id="brand">
+               <li><a id="logo" href="index.html"><img src="Images/rrlogo.png" class="logo" alt=""></a></li>
+               <li><a id= "tt" href="index.html">Dahab & Jewels</a></li>
+            </ul>
+         </div>
+         <div>
+            <ul id="navbar" >
+               <li><a href="index.html">Home</a></li>
+               <li><a href="shop.html">Shop</a></li>
+               <li><a class="active" href="basket.html">Basket  <i class="fa-solid fa-basket-shopping"></i></a></li>
+               <li><a class="active" href="" id="cross"><i class="fa-solid fa-xmark"></i></a></li>
+            </ul>
+         </div>
+         <div id="hamburger" >
+            <i id="bar" class="fa-solid fa-bars"></i>
+         </div>
+      </section>
+      <section id="basket-p">
+         <table>
+            <thead>
+               <tr>
+                  <td>Remove</td>
+                  <td>Product</td>
+                  <td>Image</td>
+                  <td>Price</td>
+                  <td>Quantity</td>
+                  <td>Subtotal</td>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td><i class="fa-solid fa-trash"></i></td>
+                  <td>Baby Pink bracelet,<br> necklace & earrings set</td>
+                  <td><img src="Images/Products/product1.png" alt=""></td>
+                  <td>£69.99</td>
+                  <td><input type="number" value="1"></td>
+                  <td>£69.99</td>
+               </tr>
+            </tbody>
+            <tbody>
+               <tr>
+                  <td><i class="fa-solid fa-trash"></i></td>
+                  <td>Blue bracelet, <br> necklace & earrings set</td>
+                  <td><img src="Images/Products/product3.png" alt=""></td>
+                  <td>£69.99</td>
+                  <td><input type="number" value="1"></td>
+                  <td>£69.99</td>
+               </tr>
+            </tbody>
+            <tbody>
+               <tr>
+                  <td><i class="fa-solid fa-trash"></i></td>
+                  <td>Morganite bracelet, <br> necklace & earrings set</td>
+                  <td><img src="Images/Products/product4.png" alt=""></td>
+                  <td>£69.99</td>
+                  <td><input type="number" value="1"></td>
+                  <td>£69.99</td>
+               </tr>
+            </tbody>
+         </table>
+      </section>
+
+      <section id="basket-checkout">
+        <div id="discount">
+          <div id="code">
+            <h3>Apply Discount Code</h3>
+            <div>
+              <input type="text" placeholder="Enter discount code">
+              <button class="normal">Apply</button>
+            </div>
+          </div>
+
+          <div id="gift-card">
+            <h3>Gift Card</h3>
+            <div>
+              <input type="text" placeholder="DJ00000000000...">
+              <button class="normal">Apply</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="total">
+          <h3>Basket Total</h3>
+          <table>
+            <tr>
+              <td>Subtotal</td>
+              <td>£209.07</td>
+            </tr>
+            <tr>
+              <td>Delivery Cost</td>
+              <td>Free Delivery</td>
+            </tr>
+            <tr>
+              <td><strong>Total:</strong></td>
+              <td><strong>£209.07</strong></td>
+            </tr>
+          </table>
+          <button class="normal">Checkout</button>
+        </div>
+      </section>
+      <footer>
+         <div>
+            <h4>Contact</h4>
+            <p><strong> Address: </strong>22 Manor Farm, London, United Kingdom N8 0RE</p>
+            <p><strong> Phone: </strong>  0112 1445 1789/(+44)77 0708 4598</p>
+            <p><strong> Store hours: </strong> 9am - 7pm, Mon-Fri, Sat-Sun closed</p>
+            <div class="follow">
+               <h4>Follow Us</h4>
+               <div class="icon">
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-youtube"></i>
+                  <i class="fa-brands fa-pinterest"></i>
+               </div>
+            </div>
+         </div>
+         <div>
+            <h4>Install App</h4>
+            <p>Available for IOS and Android</p>
+            <div>
+               <img src="Images/appstore.png" alt="">
+            </div>
+            <p>Secure payments gateways</p>
+            <img src="Images/securepayments.png" alt="">
+         </div>
+         <div>
+            <h5>Copyright &copy; Dahab & Jewellery Ltd</h5>
+         </div>
+      </footer>
+      <script src="js/scripts.js"></script>
+   </body>
+</html>
